@@ -1,10 +1,8 @@
 package kr.ac.hnu.itup;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class Food {
     private String name;
     private int price;
