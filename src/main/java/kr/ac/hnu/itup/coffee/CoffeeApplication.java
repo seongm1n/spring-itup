@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ImportResource;
 
 @Slf4j
 @SpringBootApplication
-@ImportResource("classpath:coffee-context.xml")
+//@ImportResource("classpath:coffee-context.xml")
 public class CoffeeApplication {
     public static void main(String[] args) {
         ApplicationContext context = SpringApplication.run(CoffeeApplication.class, args);
