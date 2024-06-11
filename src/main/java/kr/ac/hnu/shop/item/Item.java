@@ -9,7 +9,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 import java.time.LocalDateTime;
-
+//@Data 제외된 것: hashcode() equals()
 @Getter
 @Setter
 @ToString
